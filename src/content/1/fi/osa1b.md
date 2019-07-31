@@ -433,8 +433,8 @@ const arto = {
 
 arto.doAddition(1, 4) // tulostuu 5
 
-const referenceToAdditon = arto.doAddition
-referenceToAdditon(10, 15) // tulostuu 25
+const referenceToAddition = arto.doAddition
+referenceToAddition(10, 15) // tulostuu 25
 ```
 
 Oliolla on nyt metodi _doAddition_, joka osaa laskea parametrina annettujen lukujen summan. Metodia voidaan kutsua normaaliin tapaan olion kautta <em>arto.doAddition(1, 4)</em> tai tallettamalla <i>metodiviite</i> muuttujaan ja kutsumalla metodia muuttujan kautta <em>referenceToAdditon(10, 15)</em>.
